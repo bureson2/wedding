@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/wedding/static/css/main.465b27dc.css",
+    "main.js": "/wedding/static/js/main.f91150d0.js",
+    "static/js/787.bb95a2f2.chunk.js": "/wedding/static/js/787.bb95a2f2.chunk.js",
+    "static/media/mainImage.jpg": "/wedding/static/media/mainImage.6533d74639c6e1b6563c.jpg",
+    "static/media/20221223_122533.jpg": "/wedding/static/media/20221223_122533.89ed6329405db4a611cd.jpg",
+    "static/media/image3.JPG": "/wedding/static/media/image3.1a6dc728b27cd517e488.JPG",
+    "static/media/image2.JPG": "/wedding/static/media/image2.4de74fe83c74c2f3fbed.JPG",
+    "static/media/20221124_222412.jpg": "/wedding/static/media/20221124_222412.4a368833964aeff865ad.jpg",
+    "static/media/ninja.JPG": "/wedding/static/media/ninja.69be79e9cedc41688cc5.JPG",
+    "static/media/image1.JPG": "/wedding/static/media/image1.76a6943a37ce32d66761.JPG",
+    "static/media/20221124_222428.jpg": "/wedding/static/media/20221124_222428.6b01e5d0cb230a2e2895.jpg",
+    "static/media/invitationCZ.png": "/wedding/static/media/invitationCZ.535da80a9224c38442cc.png",
+    "static/media/invitationSK.png": "/wedding/static/media/invitationSK.7cb9058338bfcfbb5502.png",
+    "static/media/engagement.jpg": "/wedding/static/media/engagement.9ea57efb7174a61fa57c.jpg",
+    "static/media/20221124_222218.jpg": "/wedding/static/media/20221124_222218.22b06417c1fd8b07bb95.jpg",
+    "static/media/collage1.png": "/wedding/static/media/collage1.94d0f9fa29029b78e1f5.png",
+    "static/media/childhood.png": "/wedding/static/media/childhood.4670eb96e20e3c3316bd.png",
+    "static/media/collage2.png": "/wedding/static/media/collage2.1f229d3e8dca6cc5d8c7.png",
+    "index.html": "/wedding/index.html",
+    "main.465b27dc.css.map": "/wedding/static/css/main.465b27dc.css.map",
+    "main.f91150d0.js.map": "/wedding/static/js/main.f91150d0.js.map",
+    "787.bb95a2f2.chunk.js.map": "/wedding/static/js/787.bb95a2f2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.465b27dc.css",
+    "static/js/main.f91150d0.js"
+  ]
+}
