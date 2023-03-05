@@ -1,0 +1,112 @@
+@use 'src/base_css/base';
+
+.center_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#gallery_header {
+  background-color: base.$secondary-color;
+  font-family: base.$font-title;
+  font-size: base.$title-size;
+  font-weight: normal;
+}
+
+#gallery_text {
+  font-family: base.$font-text;
+  font-size: base.$normal-text-size;
+  font-weight: bold;
+  margin-bottom: 3vh;
+}
+
+#sorry_text{
+  font-family: base.$font-text;
+  font-size: base.$normal-text-size;
+  font-weight: bold;
+}
+
+.horizontal_divider a {
+  font-family: base.$font-text;
+  display: flex;
+  justify-content: center;
+  border-top: solid 1px base.$black;
+}
+
+.horizontal_divider a:hover {
+  border-top: solid 2px base.$black;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+@media screen and (min-width: base.$breakpoint), (orientation: landscape) {
+
+  .horizontal_line {
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .horizontal_line img {
+    height: 70vh;
+    width: auto;
+  }
+
+  #gallery_header {
+    padding: 4vh 0;
+  }
+
+  .horizontal_divider {
+    display: flex;
+    flex-direction: column;
+    font-size: base.$navigation-text-size;
+  }
+
+  .horizontal_divider a {
+    margin-top: 3vh;
+    padding-top: 1vh;
+  }
+
+  #gallery_text {
+    margin-bottom: 3vh;
+  }
+}
+
+@media screen and (max-width: base.$breakpoint) and (orientation: portrait) {
+  #gallery div {
+    width: 90vw;
+    margin: 0 2.5vw;
+  }
+
+  #gallery_text {
+    text-align: center;
+  }
+
+  //.horizontal_line a {
+  //  padding-top: 1vh;
+  //  width: 80vw;
+  //  margin: 0 5vw;
+  //  order: 1;
+  //}
+
+  .horizontal_line{
+    display: none;
+  }
+
+  .mobile_photo_div {
+    display: flex;
+    justify-content: center;
+  }
+
+  #mobile_photo {
+    margin-top: 2vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    width: 90vw;
+    height: auto;
+  }
+
+  #sorry_part{
+    margin: 0 3.5vw;
+  }
+}

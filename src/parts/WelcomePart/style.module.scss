@@ -1,0 +1,111 @@
+@use 'src/base_css/base';
+
+#modal{
+  z-index: 4;
+}
+
+#welcome_button {
+  display: flex;
+  justify-content: center;
+  background-color: base.$black;
+  color: base.$white;
+  border-radius: 3px;
+}
+
+#welcome_button:hover {
+  background-color: base.$secondary-color;
+  color: base.$black;
+  font-weight: bold;
+}
+
+.section_title {
+  font-family: base.$font-title;
+  font-size: base.$title-size;
+  font-weight: normal;
+}
+
+.center_content div {
+  font-family: base.$font-text;
+  font-weight: bold;
+}
+
+@media screen and (min-width: base.$breakpoint), (orientation: landscape) {
+
+  #welcome_button {
+    margin: 4vh 0;
+  }
+
+  #welcome_part{
+    display: flex;
+    justify-content: center;
+    padding: 0 4vw;
+    margin: 4vh;
+  }
+
+  .horizontal_line {
+    display: flex;
+    flex-direction: row;
+    //justify-content: space-around;
+  }
+
+  #web_collage {
+    height: 85vh;
+    width: auto;
+  }
+
+  .center_content {
+    padding: 2vh 2vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40vw;
+  }
+
+  #welcome_button {
+    width: 10vw;
+    padding: 1.5vh 6vw;
+  }
+
+  .button_right {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    padding-right: 4vw;
+  }
+}
+
+@media screen and (max-width: base.$breakpoint) and (orientation: portrait){
+
+  #mobile_image {
+    width: 90vw;
+    margin: 0 5vw;
+    height: auto;
+  }
+
+  #welcome_button {
+    width: 40vw;
+    padding: 1vh 0;
+  }
+
+  .button_right {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-right: 4vw;
+  }
+
+  .center_content {
+    padding: 0 5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .section_title{
+    text-align: center;
+  }
+
+  #welcome_button {
+    margin-top: 3vh;
+  }
+}

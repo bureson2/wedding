@@ -1,0 +1,27 @@
+$primary-color: #FFFFFF;
+$secondary-color: #dcc997;
+$tertiary-color: #25272a;
+$text-in-grey-color: #bbb1b1;
+$black: #000000;
+$white: #ffffff;
+
+$main-title-size: 1.6em;
+$main-subtitle-size: 1.5em;
+$title-size: 2.5em;
+$normal-text-size: 1em;
+$navigation-text-size: 1.4em;
+
+$mobile-navigation-size: 1.25em;
+
+$breakpoint: 868px;
+
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&family=Source+Code+Pro:wght@300&display=swap');
+$font-title: 'Parisienne', cursive;
+$font-text: 'Source Code Pro', monospace;
+
+//@font-face {
+//  font-family: 'source-code-pro';
+//  src: url('./src/fonts/SourceCodePro-Regular.ttf') format('truetype');
+//}
+//
+//$font1: source-code-pro;

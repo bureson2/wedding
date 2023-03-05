@@ -1,0 +1,191 @@
+@use 'src/base_css/base';
+
+#modal{
+  z-index: 4;
+}
+
+#black_part input {
+  background-color: base.$secondary-color;
+  color: base.$black;
+  display: flex;
+  justify-content: center;
+  font-family: base.$font-text;
+  font-weight: bold;
+  border-radius: 3px;
+}
+
+#black_part input:hover {
+  background-color: #c7b178;
+  cursor: pointer;
+}
+
+#yellow_part {
+  background-color: base.$secondary-color;
+  display: flex;
+  align-items: center;
+}
+
+#our_section_title, .section_title {
+  font-family: base.$font-title;
+  font-size: base.$title-size;
+  font-weight: normal;
+}
+
+.horizontal_lines{
+  font-family: base.$font-text;
+  font-weight: bold;
+}
+
+#black_part {
+  color: base.$white;
+  background-color: base.$tertiary-color;
+}
+
+@media screen and (min-width: base.$breakpoint), (orientation: landscape) {
+
+  #black_part input{
+    width: 10vw;
+    padding: 1.5vh 6vw;
+  }
+
+  .our_story{
+    /*display: flex;*/
+    /*justify-content: center;*/
+    margin: 4vh 0;
+  }
+
+  .center_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .horizontal_lines {
+    padding: 0 2vw;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .white_part_content {
+    margin: 0 6vw;
+  }
+
+  #white_part {
+    height: 40vh;
+  }
+
+  #white_part img {
+    height: 60vh;
+    width: auto;
+    margin-right: 5vw;
+    position: relative;
+  }
+
+  #yellow_part div {
+    margin-left: 5vw;
+    margin-top: 25vh;
+    margin-bottom: 20vh;
+  }
+
+  #yellow_part img {
+    height: 60vh;
+    width: auto;
+    padding: 2vh 0;
+  }
+
+  #black_part {
+    height: 35vh;
+  }
+
+  #black_part img {
+    position: relative;
+    bottom: 18vh;
+    margin-left: auto;
+    height: 45vh;
+    width: auto;
+    margin-right: 2.5vw;
+    z-index: 2;
+  }
+
+  .invitation_part {
+    min-width: 40vw;
+  }
+  .invitation_part h2 {
+    padding-top: 10vh;
+    padding-left: 4vw;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  .invitation_part div {
+    display: flex;
+    justify-content: right;
+    margin-top: 5vh;
+    padding-right: 5vw;
+  }
+}
+
+@media screen and (max-width: base.$breakpoint) and (orientation: portrait) {
+
+  #childhood_image_div{
+    position: relative;
+    height: 40vh;
+  }
+
+  #childhood_image_div img {
+    position: absolute;
+    z-index: 2;
+    top: 5vh;
+    width: 90vw;
+    height: auto;
+  }
+
+  .our_story{
+   display: flex;
+   flex-direction: column;
+   width: 100vw;
+ }
+
+  #our_section_title{
+    text-align: center;
+    margin: 2vh 0;
+  }
+
+  .horizontal_lines{
+    padding: 0 5vw;
+  }
+
+  #black_part {
+    font-size: 0.55em;
+  }
+
+  #black_part h2{
+    text-align: center;
+  }
+
+  .invitation_part div{
+    display: flex;
+    justify-content: center;
+  }
+
+  .invitation_part input{
+    width: 50vw;
+    padding: 1vh 0;
+    color: red;
+  }
+
+  #black_part img {
+    padding: 2vh 0;
+    width: 90vw;
+    height: auto;
+  }
+
+  #yellow_part{
+    padding-top: 20vh;
+  }
+
+  #white_part {
+    //height: 80vh;
+  }
+}

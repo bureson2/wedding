@@ -1,0 +1,90 @@
+@use 'src/base_css/base';
+
+#font1{
+  font-family: base.$font-text;
+  font-size: base.$navigation-text-size;
+
+}
+
+#font2{
+  font-family: base.$font-text;
+  font-size: base.$navigation-text-size;
+}
+
+.center_content {
+  display: flex;
+  justify-content: center;
+}
+
+#footer {
+  color: base.$text-in-grey-color;
+  font-family: base.$font-text;
+  font-weight: bold;
+  background-color: base.$tertiary-color;
+  //margin-bottom: 100vh;
+}
+
+@media screen and (min-width: base.$breakpoint), (orientation: landscape) {
+
+  #big_font_size {
+    font-family: base.$font-title;
+    margin-top: 6vh;
+    font-size: 2.5em;
+  }
+
+  #footer {
+    margin-top: 2vh;
+    padding: 2vh;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .size_corrector {
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: base.$breakpoint) and (orientation: portrait) {
+
+  #font1{
+    text-align: center;
+    font-family: base.$font-text;
+    font-size: 1em;
+    font-weight: bold;
+  }
+
+  #font2{
+    text-align: center;
+    font-family: base.$font-text;
+    font-size: 1em;
+    font-weight: bold;
+
+  }
+
+  #big_font_size {
+    font-family: base.$font-title;
+    margin-top: 4vh;
+    font-size: 1.85em;
+  }
+
+  .center_content {
+    font-size: 1.65em;
+  }
+
+  #mobile_hidder{
+    display: none;
+  }
+
+  #footer {
+    margin-top: 2vh;
+    padding: 2vh;
+    display: flex;
+    justify-content: center;
+  }
+
+  #footer div{
+    margin: 0 2vw;
+  }
+}

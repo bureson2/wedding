@@ -1,0 +1,160 @@
+@use 'src/base_css/base';
+
+#form div {
+  display: flex;
+  align-items: center;
+}
+
+#form input {
+  border: 0;
+  outline: 0;
+  border-bottom: 2px solid base.$black;
+  margin: 2vh 0;
+}
+
+#form input[type="radio"] {
+  margin-right: 1vw;
+  border: 1px solid black;
+  padding: 0.5em;
+  -webkit-appearance: none;
+}
+
+#form input[type=radio]:checked {
+  background: black no-repeat center center;
+  padding: 7px;
+}
+
+#form input[type=radio]:focus {
+  outline-color: transparent;
+}
+
+#contact_title {
+  font-family: base.$font-title;
+  font-size: base.$title-size;
+  font-weight: normal;
+}
+
+#send_button {
+  display: flex;
+  justify-content: center;
+  font-family: base.$font-text;
+  font-weight: bold;
+  background-color: base.$black;
+  color: base.$white;
+  border-radius: 3px;
+}
+
+#send_button:hover {
+  background-color: base.$secondary-color;
+  color: base.$black;
+  border-radius: 3px;
+}
+
+.vertical_line {
+  display: flex;
+  flex-direction: column;
+  font-family: base.$font-text;
+  font-weight: bold;
+}
+
+@media screen and (min-width: base.$breakpoint), (orientation: landscape) {
+
+  textarea{
+    margin-top: 2vh;
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .confirmation {
+    padding: 0 4vw;
+    margin: 4vh 0;
+  }
+
+  .center_content {
+    display: flex;
+    justify-content: center;
+  }
+
+  .horizontal_line {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .horizontal_line img {
+    height: 80vh;
+    width: auto;
+  }
+
+  .contact_text {
+    margin-left: 5vw;
+  }
+
+  #form {
+    padding-top: 4vh;
+    margin-left: 5vw;
+  }
+
+  .button_right {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    padding-right: 4vw;
+  }
+
+  #send_button {
+    width: 10vw;
+    padding: 1.5vh 6vw;
+    margin-top: 4vh;
+  }
+
+  #send_button:hover {
+    width: 10vw;
+    padding: 1.5vh 6vw;
+    margin-top: 4vh;
+  }
+}
+
+@media screen and (max-width: base.$breakpoint) and (orientation: portrait) {
+
+  textarea{
+    margin-top: 2vh;
+    width: 90%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .confirmation {
+    width: 90vw;
+    //padding: 0 4vw;
+    margin: 0 5vw;
+  }
+
+  .button_right{
+    display: flex;
+    justify-content: center;
+  }
+
+  #send_button {
+    width: 40vw;
+    padding: 1vh 6vw;
+    margin-top: 4vh;
+  }
+
+  #contact_title{
+    font-size: 2em;
+    text-align: center;
+    margin: 1vh 0;
+  }
+
+  .horizontal_line img {
+    width: 90vw;
+    height: auto;
+  }
+
+  .vertical_line{
+    margin-top: 2vh;
+  }
+}

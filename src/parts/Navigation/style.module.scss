@@ -1,0 +1,105 @@
+@use 'src/base_css/base';
+
+#modal{
+  z-index: 4;
+}
+
+#main_title {
+  font-size: base.$main-title-size;
+  font-weight: normal;
+}
+
+#title_names {
+  font-family: base.$font-title;
+  font-size: base.$main-subtitle-size;
+  font-weight: normal;
+}
+
+#main_link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1vh;
+}
+
+#navigation {
+  background-color: base.$white;
+}
+
+@media screen and (min-width: base.$breakpoint), (orientation: landscape) {
+
+  #navigation {
+    padding-bottom: 4vh;
+  }
+
+  .horizontal_line {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .navigation_link {
+    font-size: base.$navigation-text-size;
+    font-family: base.$font-text;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    width: 16vw;
+    color: base.$black;
+    text-decoration: none;
+    border-bottom: 1px solid base.$black;
+    cursor: pointer;
+  }
+
+  .navigation_link:hover {
+    border-bottom: 2px solid base.$black;
+    font-weight: bold;
+  }
+
+  #mobile_nav{
+    display: none;
+  }
+}
+
+@media screen and (max-width: base.$breakpoint) and (orientation: portrait) {
+  .horizontal_line {
+    display: none;
+    flex-direction: column;
+    //justify-content: space-evenly;
+  }
+  #navigation {
+    padding-bottom: 2vh;
+  }
+
+  .navigation_link {
+    //font-size: base.$navigation-text-size;
+    font-family: base.$font-text;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    color: base.$black;
+    text-decoration: none;
+    border-bottom: 1px solid base.$black;
+    cursor: pointer;
+  }
+
+  .navigation_link:hover {
+    border-bottom: 2px solid base.$black;
+    font-weight: bold;
+  }
+
+  #mobile_nav{
+    //display: flex;
+    //justify-content: center;
+    position: absolute;
+    margin-left: 90vw;
+  }
+
+  #mobile_nav img{
+    height: 4vh;
+  }
+}
