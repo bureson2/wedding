@@ -59,7 +59,7 @@ export const WelcomePart = () => {
                         </div>
 
                         <div className={styles.button_right}>
-                            <input id={styles.welcome_button} type="button" value="♥"
+                            <input id={styles.welcome_button} type="button" value="🤍"
                                    onClick={() => openModal()}/>
                         </div>
                     </div>

@@ -28,6 +28,10 @@
 
 @media screen and (min-width: base.$breakpoint), (orientation: landscape) {
 
+  #mobile_heart{
+    display: none;
+  }
+
   #navigation {
     padding-bottom: 4vh;
   }
@@ -64,6 +68,11 @@
 }
 
 @media screen and (max-width: base.$breakpoint) and (orientation: portrait) {
+
+  #pc_heart{
+    display: none;
+  }
+
   .horizontal_line {
     display: none;
     flex-direction: column;

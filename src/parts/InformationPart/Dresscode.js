@@ -16,7 +16,7 @@ export const Dresscode = () => {
                 rádi, pokud byste na ně s výškou také trošku mysleli a nevzali si ty nejvyšší boty z šatníku.
             </p>
             <p>
-            PS: Ženich vzkazuje, že pokud jste chtěli být vyšší, tak si s tím nelamte hlavu. Nejste v tom sami ♥
+            PS: Ženich vzkazuje, že pokud jste chtěli být vyšší, tak si s tím nelamte hlavu. Nejste v tom sami 🖤
                 <br />
                 Tak v tom nenechte ženicha samotného ;)
             </p>

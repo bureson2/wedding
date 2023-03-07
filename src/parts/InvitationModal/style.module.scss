@@ -148,4 +148,18 @@
     position: relative;
     right: 8vw;
   }
+
+  .clode_div{
+    height: auto;
+    //padding-top: 3vh;
+    position: relative;
+    right: 5vw;
+    display: flex;
+    align-items: start;
+  }
+
+  .close_button{
+    padding: 1vw 1vw;
+    z-index: 5;
+  }
 }

@@ -22,6 +22,8 @@ root.render(
     <React.StrictMode>
         <Helmet>
             <title>{TITLE}</title>
+            <meta name="lang" content="cs" />
+            <meta charSet="UTF-8"/>
         </Helmet>
         <Navigation></Navigation>
         <WelcomePart></WelcomePart>

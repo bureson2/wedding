@@ -21,7 +21,7 @@ export const InformationPart = () => {
                 </p>
                 <ul className={styles.ul_text_align}>
                     <li>
-                        Na svatbě budeme mít profesionální fotografku a profeionálního kameramana.
+                        Na svatbě budeme mít profesionální fotografku a profesionálního kameramana.
                         Proto Vás moc žádáme, abyste v důležité momenty odolali a nechali své mobilní telefony v kapsách a
                         prožili tyto jedinečné chvíle s námi. Uvidíte, že výsledné fotky a videa budou bez telefonů v záběrech
                         místo Vašich tváří vypadat mnohem lépe. A to platí i pro otce nevěsty!!!

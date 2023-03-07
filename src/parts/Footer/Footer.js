@@ -14,7 +14,9 @@ export const Footer = () => {
             </div>
             <div id={styles.footer}>
                 <div className={styles.size_corrector} id={styles.mobile_hidder}></div>
-                <div className={styles.size_corrector}>♥</div>
+                <div className={styles.size_corrector}>
+                    🤍
+                </div>
                 <div className={styles.size_corrector}>created by Sóňa & Óňa</div>
             </div>
         </>

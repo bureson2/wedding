@@ -129,14 +129,15 @@
 @media screen and (max-width: base.$breakpoint) and (orientation: portrait) {
 
   #childhood_image_div{
-    position: relative;
-    height: 40vh;
+    //position: relative;
+    //height: 40vh;
+    padding-bottom: 4vh;
   }
 
   #childhood_image_div img {
-    position: absolute;
+    //position: absolute;
     z-index: 2;
-    top: 5vh;
+    //top: 5vh;
     width: 90vw;
     height: auto;
   }
@@ -181,9 +182,9 @@
     height: auto;
   }
 
-  #yellow_part{
-    padding-top: 20vh;
-  }
+  //#yellow_part{
+  //  padding-top: 30vh;
+  //}
 
   #white_part {
     //height: 80vh;

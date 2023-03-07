@@ -56,7 +56,7 @@ export const Navigation = () => {
                     NAŠE SVATBA
                 </div>
                 <div id={styles.title_names}>
-                    Soňa ♥ Ondra
+                    Soňa <span id={styles.pc_heart}>♥</span><span id={styles.mobile_heart}>🖤</span> Ondra
                 </div>
             </h1>
 

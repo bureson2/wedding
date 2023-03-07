@@ -17,7 +17,7 @@ export const GaleryPart = () => {
             <div className={styles.gallery} id={'gallery'}>
                 <h2 className={styles.center_content} id={styles.gallery_header}>Galerie</h2>
                 <div className={styles.center_content} id={styles.gallery_text}>
-                    Po svatbě zde zveřejníme naše společné fotky a svatební video. ♥
+                    Po svatbě zde zveřejníme naše společné fotky a svatební video. 🖤
                 </div>
                 <div className={styles.horizontal_line}>
                     <div className={styles.horizontal_divider} id={styles.mobile_reverse}>
