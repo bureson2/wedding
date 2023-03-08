@@ -10,21 +10,30 @@ import {ContactPart} from "./parts/ContactPart/ContactPart";
 import {GaleryPart} from "./parts/GaleryPart/GaleryPart";
 import {Footer} from "./parts/Footer/Footer";
 import {Helmet} from 'react-helmet';
+import DocumentMeta from 'react-document-meta';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 const TITLE = 'Naše svatba';
+const charSet = "utf-8";
 
+const lang = 'cs'
 const meta = {
-    title: TITLE
+    title: TITLE,
+    meta: {
+        charset: charSet,
+        lang: lang,
+    }
 }
 
 root.render(
     <React.StrictMode>
         <Helmet>
+            <meta charSet={charSet} />
+            <html lang={lang} />
             <title>{TITLE}</title>
-            <meta name="lang" content="cs" />
-            <meta charSet="UTF-8"/>
         </Helmet>
+        <DocumentMeta {...meta} />
         <Navigation></Navigation>
         <WelcomePart></WelcomePart>
         <OurStoryPart></OurStoryPart>
