@@ -20,6 +20,29 @@ export const InformationPart = () => {
                     Zde Vás budeme průběžně informovat o všem možném i nemožném.
                 </p>
                 <ul className={styles.ul_text_align}>
+                    <li className={styles.bold}>
+                        Upozorňujeme na změnu. Obřad jsme posunuli ze 14:00 na 13:00.
+                    </li>
+                    <li className={styles.bold}>
+                        Pro všechny je zařízen společný odvoz autobusem. Odjezd bude ve 12 hodin z Neratovic
+                        v Ulici Na Výsluní a dále z Libiše od rodinného domu. Ti, ktetých se tato doprava netýká to od nás budou vědět včas.
+                    </li>
+                    <li>
+                        Odvoz bude zajištěn formou 2 aut s řidiči, kteří budou k dispozici do 30 minut od prvního zavolání.
+                        Z kapacitních důvodů, prosím, mějte na paměti,
+                        že kapacita bude v jednu chvíli omezená a proto počítejte s určitou časovou prodlevou.
+                    </li>
+                    <li>
+                        Pro zájemce o tajná taneční překvapení uvedeme, že se mohou podívat na krátký taneček k písničce <a className={styles.no_underline} href={"https://www.youtube.com/shorts/D4b9yYToU5o"}>Blinding lights</a>.
+                    </li>
+                    <li>
+                        Pro milovníky hudby máme na pozdní hodiny připravené kartičky s možností písničky na přání.
+                    </li>
+                    <li>
+                        Na závěr bychom si dovolili všechny požádat, aby případně poslouchali instrukce fotografky, kameramana,
+                        svědků a malé hlasité blondýnky, Aničky, kterou jistě poznáte velmi rychle ;)
+                    </li>
+                    <hr />
                     <li>
                         Na svatbě budeme mít profesionální fotografku a profesionálního kameramana.
                         Proto Vás moc žádáme, abyste v důležité momenty odolali a nechali své mobilní telefony v kapsách a

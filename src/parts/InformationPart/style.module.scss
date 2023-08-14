@@ -1,7 +1,15 @@
 @use 'src/base_css/base';
 
+.no_underline{
+  text-decoration: none;
+  font-family: base.$font-text;
+  font-weight: bold;
+}
+
 .ul_text_align{
   text-align: left;
+  font-family: base.$font-text;
+  font-weight: bold;
 }
 
 .ul_text_align li{
